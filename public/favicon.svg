@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+	<style>
+		.bg { fill: #050505; }
+		.mark { fill: #F5F5F5; }
+		.accent { stroke: #8C93FF; }
+		@media (prefers-color-scheme: light) {
+			.bg { fill: #F5F5F5; }
+			.mark { fill: #050505; }
+		}
+	</style>
+	<rect class="bg" width="64" height="64" rx="14" />
+	<path class="mark" d="M48 15C43 10 37 8 30 8C16 8 7 19 7 33C7 47 17 58 31 58C45 58 55 48 55 34V30H31V38H46C45 46 39 51 31 51C21 51 15 44 15 33C15 22 21 16 31 16C36 16 40 18 44 22Z" />
+	<path class="accent" d="M35 34H49" fill="none" stroke-width="1.5" stroke-linecap="square" />
+</svg>
